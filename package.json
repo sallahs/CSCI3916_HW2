@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sebastianbarry/CSC3916_HW2.git"
+    "url": "git+https://https://github.com/sallahs/CSCI3916_HW2.git"
   },
   "keywords": [
     "Movie"
@@ -16,9 +16,9 @@
   "author": "Shawn McCarthy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sebastianbarry/CSC3916_HW2/issues"
+    "url": "https://github.com/sallahs/CSCI3916_HW2/issues"
   },
-  "homepage": "https://github.com/sebastianbarry/CSC3916_HW2#readme",
+  "homepage": "https://github.com/sallahs/CSCI3916_HW2#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
