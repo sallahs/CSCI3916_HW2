@@ -94,7 +94,17 @@ router.route('/movies')
         res.json(o);
     })
     .get(function (req, res){
-        res.status(200).send({success: true, msg: 'GET movies'});
+        console.log(reg.body);
+        res = res.status(200);
+        if(req.get('Content-Type'))
+        {
+            res = res.type(req.get('Content-Type'));
+        }
+        var object = getJSONObjectForMovieRequirement(req, "GET movies");
+        res.json(object);
+
+
+        // res.status(200).send({success: true, msg: 'GET movies'});
     })
     .post(function (req, res){
         res.status(200).send({success: true, msg: 'movie saved'});
